@@ -4,7 +4,7 @@ This script performs the preprocessing of Gene expression data from the GDC port
 
 It extracts the GDC downloaded files, parse them, and call the GDC API for metadata of each file, such as case_id and sample_id.
 The apiRequest.txt file contains a query that contains $$$ and will be replaced by the script to the relevant file_id.
-Please note that this script may take a while to run when having a high number of files due to the API request.
+Please note that this script may take a while to run when having a high number of files due to the API requests.
 
 Here is the pipeline:
 1. Download from the GDC portal manifest files from a specific type of interest (e.g. all TCGA projects and FPKM files, or FPKM-UQ)
