@@ -10,12 +10,12 @@ Here is the pipeline:
 
 2. After downloading manifest file/s, use the GDC client to download the files:
 
--> open cmd
+    -> open cmd
 
--> change dir to the gdc_client directory
+    -> change dir to the gdc_client directory
 
--> gdc_client download -m ManifestName.txt 
-(you can also specify a target folder)
+    -> gdc_client download -m ManifestName.txt 
+    (you can also specify a target folder)
 
 
 3. If you used several manifest files, merge them to one and put all the downloaded files in one folder.
